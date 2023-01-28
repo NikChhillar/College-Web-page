@@ -16,5 +16,5 @@ faqs.forEach(faq => {
         } else {
             icon.className = "fa-solid fa-plus";
         }
-    })
-})
+    });
+});
