@@ -17,3 +17,25 @@ faqs.forEach(faq => {
         }
     });
 });
+
+// 
+const menu = document.querySelector(".nav_menu");
+const menuOpen = document.querySelector("#open-menu");
+const menuClose = document.querySelector("#close-menu");
+
+
+menuOpen.addEventListener("click", () => {
+    menu.style.display = "flex";
+    menuClose.style.display = "inline-block";
+    menuOpen.style.display = "none";
+});
+
+
+const closeNavMenu = () => {
+    menu.style.display = "none";
+    menuOpen.style.display = "inline-block";
+    menuClose.style.display = "none";
+}
+
+menuClose.addEventListener("click", closeNavMenu);
+
