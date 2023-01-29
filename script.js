@@ -39,3 +39,4 @@ const closeNavMenu = () => {
 
 menuClose.addEventListener("click", closeNavMenu);
 
+// project completed
